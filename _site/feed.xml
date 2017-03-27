@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forrest Ameling</title>
-    <description>I offer high impact web development services. From web design to custom web applications.</description>
+    <description>I offer high impact web development services, from web design to custom web applications.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Mar 2017 20:17:13 +0800</pubDate>
-    <lastBuildDate>Mon, 20 Mar 2017 20:17:13 +0800</lastBuildDate>
+    <pubDate>Mon, 27 Mar 2017 20:27:04 +0800</pubDate>
+    <lastBuildDate>Mon, 27 Mar 2017 20:27:04 +0800</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -24,8 +24,8 @@
 &lt;p&gt;This is where I began. Sitting at an old desk with a 10 RMB notebook and visual studios on my laptop, I began to write code for the first time. I have come a long way from where I began, and am proud of all I have accomplished and learned over the last 5 months. I’ve complete FreeCodeCamp’s Front End Development course, learned SQL and Python, and found countless resources to practice and continue learning. October of 2016 I stepped into a completely foreign environment. I challenged myself to learn something new, and to take a step away from what I was comfortable with. I am far from where I was and see a future full of possibilities. I am addicted and cannot wait to learn the next thing, complete a new project, and see over the years how much further I will go.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 12:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/03/05/Beginning-My-Coding-Journey.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/05/Beginning-My-Coding-Journey.html</guid>
+        <link>http://localhost:4000/Beginning-My-Coding-Journey.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Beginning-My-Coding-Journey.html</guid>
         
         
       </item>
