@@ -17,7 +17,7 @@ title: Forrest Ameling
 email: forrest.ameling@gmail.com
 description: "I offer high impact web development services, from web design to custom web applications."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ForrestAmeling.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ForrestAmeling.github.io/home/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fameling
 github_username:  ForrestAmeling
 
