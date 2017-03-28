@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Beginning My Coding Journey
+title: "Beginning My Coding Journey"
 date: 2017-03-05 12:00
 author: Forrest Ameling
 lead: "Coding is creating, and creating is what I live for."
+category: coding
 ---
 
 Creativity has always been an aspect of my personality. Making up games to play with my siblings and friends happened almost every weekend as a child. I developed a love for the arts early, and to this day you will find me sketching, paining, woodworking, or heading to see, but must mostly hear, my states local symphony. The feeling I get when a blank canvas becomes an interpretation of what I see or a pile of wood becomes a functioning entertainment console is addicting. I am proud of what I create and completely addicted to the creation and transformation.
