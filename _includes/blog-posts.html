@@ -1,37 +1,38 @@
 <!-- Blog HTML -->
 <section id="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+  <div class="container">
+    <div class="row justify-content-center"> <!-- Add 'justify-content-center' class to center the content -->
 
-                <!-- Blog Post -->
-                {% for post in site.posts %}
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
 
-                <h2>
-                  <a href="https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html">{{ post.title }}</a>
-                </h2>
-                <p class="lead">
-                  by {{ post.author }}
-                </p>
-                <p><span class ="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %d, %Y"}} </p>
+        <!-- Blog Post -->
+        {% for post in site.posts %}
 
-                <hr>
-                {% if page.img %}
-                <img class="img-responsive" src="{{ post.img }}" alt="{{ post.title }}">
-                <hr>
-                {% endif %}
+        <h2>
+          <a href="https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html">{{ post.title }}</a>
+        </h2>
+        <p class="lead">
+          by {{ post.author }}
+        </p>
+        <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %d, %Y"}} </p>
 
-                {{ post.excerpt }}
+        <hr>
+        {% if page.img %}
+        <img class="img-responsive" src="{{ post.img }}" alt="{{ post.title }}">
+        <hr>
+        {% endif %}
 
-                <a class="btn btn-primary" href="https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+        {{ post.excerpt }}
 
-                <hr>
-                {% endfor %}
+        <a class="btn btn-primary" href="https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html">Read
+          More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
+        <hr>
+        {% endfor %}
 
-                <!-- Blog Post -->
+        <!-- Blog Post -->
 
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 </section>
