@@ -82,9 +82,9 @@
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
-            $('header.navbar').addClass('navbar-shrink');
+            $('nav.navbar').addClass('navbar-shrink');
         } else {
-            $('header.navbar').removeClass('navbar-shrink');
+            $('nav.navbar').removeClass('navbar-shrink');
         }
     });
 

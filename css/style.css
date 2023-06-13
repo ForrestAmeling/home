@@ -225,7 +225,7 @@ header .navbar-default .navbar-nav li a:hover {
   }
 }
 /*added nav shrink*/
-header.navbar-shrink {
+nav.navbar-shrink {
   position: fixed;
   top: 0;
   width: 100%;
@@ -234,15 +234,14 @@ header.navbar-shrink {
   background: #fff;
 }
 
-header.navbar-shrink .navbar-header h3 {
+nav.navbar-shrink .navbar-header h3 {
   margin-top: 8px;
 }
 
-header.navbar-shrink .navbar-default .navbar-nav li a {
+nav.navbar-shrink .navbar-default .navbar-nav li a {
   padding: 8px 15px;
   font-size: 13px;
 }
-
 
 /*---------------------------------------------
 					Index Start
