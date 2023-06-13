@@ -224,7 +224,7 @@ header .navbar-default .navbar-nav li a:hover {
     padding-bottom: 5px;
   }
 }
-
+/*added nav shrink*/
 header.navbar-shrink {
   position: fixed;
   top: 0;

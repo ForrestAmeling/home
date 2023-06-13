@@ -4,13 +4,7 @@ $(document).ready(function () {
 	$("#portfolio-contant-active").mixItUp();
 
 
-	$(window).scroll(function () {
-		if ($(this).scrollTop() > 50) {
-			$('nav').addClass('navbar-shrink');
-		} else {
-			$('nav').removeClass('navbar-shrink');
-		}
-	});
+
 
 
 
