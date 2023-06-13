@@ -111,78 +111,56 @@ a:active {
 }
 /*--
 	Header Start
-
-header {
-  background: #fff;
-  padding: 20px 0;
-}
-header .navbar {
-  margin-bottom: 0px;
-  border: 0px;
-}
-header .navbar h3 {
-  margin-top:15px;
-}
-header .navbar-default {
-  background: none;
-  border: 0px;
-}
-header .navbar-default .navbar-nav {
-  padding-top: 10px;
-}
-header .navbar-default .navbar-nav li a {
-  color: #333333;
-  padding: 10px 26px;
-  font-size: 15px;
-}
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
-}--*/
+*/
 header {
   background: #fff;
   padding: 20px 0;
 }
 
-header .navbar {
+nav.navbar {
   margin-bottom: 0px;
   border: 0px;
-}
-
-header .navbar h3 {
-  margin-top: 15px;
-  left: 0;
+  text-align: center;
   transition: all 0.3s ease;
-
 }
 
-header .navbar-default {
+nav.navbar-default {
   background: none;
   border: 0px;
 }
 
-header .navbar-default .navbar-nav {
+nav.navbar-default .navbar-nav {
   padding-top: 10px;
 }
 
-header .navbar-default .navbar-nav li a {
+nav.navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
   font-size: 15px;
 }
 
-header .navbar-default .navbar-nav li a:hover {
+nav.navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 
 /* Shrink and fix navigation on scroll */
-.navbar-shrink {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
+nav.navbar-shrink {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 0;
+  background: #fff;
+  text-align: left;
 }
 
-.navbar-shrink .navbar-default .navbar-nav li a {
-  padding: 6px 16px;
+nav.navbar-shrink .navbar-header h3 {
+  margin-top: 8px;
+}
+
+nav.navbar-shrink .navbar-default .navbar-nav li a {
+  padding: 8px 15px;
   font-size: 13px;
 }
 
@@ -203,50 +181,30 @@ header .navbar-default .navbar-nav li a:hover {
 
   header .navbar-collapse.collapse {
     display: none;
-  }
-
-  header .navbar-collapse.collapse.in {
-    display: block;
-  }
-
-  header .navbar-default .navbar-nav {
-    margin: 7.5px -15px;
-  }
-
-  header .navbar-default .navbar-nav>li {
-    float: none;
-  }
-
-  header .navbar-default .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-/*added nav shrink*/
-nav.navbar-shrink {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  padding: 10px 0;
-  background: #fff;
-}
-
-nav.navbar-shrink .navbar-header h3 {
-  margin-top: 8px;
-}
-
-nav.navbar-shrink .navbar-default .navbar-nav li a {
-  padding: 8px 15px;
-  font-size: 13px;
-}
-
+    }
+    
+    header .navbar-collapse.collapse.in {
+      display: block;
+    }
+    
+    header .navbar-default .navbar-nav {
+      margin: 7.5px -15px;
+    }
+    
+    header .navbar-default .navbar-nav>li {
+      float: none;
+    }
+    
+    header .navbar-default .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    }
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
