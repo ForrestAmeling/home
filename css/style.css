@@ -234,11 +234,11 @@ header.navbar-shrink {
   background: #fff;
 }
 
-header.navbar-shrink .navbar-brand {
-  font-size: 20px;
+header.navbar-shrink .navbar-header h3 {
+  margin-top: 8px;
 }
 
-header.navbar-shrink .navbar-nav li a {
+header.navbar-shrink .navbar-default .navbar-nav li a {
   padding: 8px 15px;
   font-size: 13px;
 }
