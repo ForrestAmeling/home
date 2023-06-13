@@ -30,201 +30,193 @@
 
 
 
-/*--
-	Common Css
---*/
-body {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 400;
-}
-
-h3 {
-  font-size: 28px;
-  font-weight: 300;
-}
-
-p {
-  font-size: 15px;
-  line-height: 28px;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-a,
-a:active,
-a:focus,
-a:active {
-  text-decoration: none !important;
-}
-
-.section-title {
-  margin-bottom: 70px;
-}
-
-.section-title i {
-  padding: 0;
-  margin: auto;
-}
-
-.section-title h2 {
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: 600;
-  padding: 0;
-  margin: auto;
-}
-
-.section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
-  color: #666;
-  padding: 0;
-  margin: auto;
-}
-
-.section-title-learn {
-  padding: 0;
-  margin: auto;
-}
-
-.section-title-learn h2 {
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: 600;
-  padding: 0;
-  margin: auto;
-}
-
-.section-title-learn p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
-  color: #666;
-  padding: 0;
-  margin: auto;
-}
-
-/*--
-	Header Start
-*/
-header {
-  background: #fff;
-  padding: 20px 0;
-}
-
-nav.navbar {
-  margin-bottom: 0px;
-  left: 0;
-  border: 0px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-nav.navbar-default {
-  background: none;
-  border: 0px;
-}
-
-nav.navbar-default .navbar-nav {
-  padding-top: 10px;
-}
-
-nav.navbar-default .navbar-nav li a {
-  color: #333333;
-  padding: 10px 26px;
-  font-size: 15px;
-}
-
-nav.navbar-default .navbar-nav li a:hover {
-  color: #000;
-}
-
-/* Shrink and fix navigation on scroll */
-nav.navbar-shrink {
-  position: fixed;
-  top: 0;
-  width: 100%; 
-  left:0;
-  z-index: 999;
-  padding-top: 10px;
-  background: #fff;
-  margin-bottom: 0px;
-  border: 0px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-nav.navbar-shrink .navbar-default {
-  padding-top: 10px;
-}
-/* 
-nav.navbar-shrink .navbar-header h3 {
-  margin-top: 8px;
-}*/
-
-nav.navbar-shrink .navbar-default .navbar-nav li a {
-  padding: 8px 15px;
-  font-size: 13px;
-}
-
-/* Hamburger style for smaller screens */
-@media (max-width: 767px) {
-  header .navbar-default .navbar-toggle .icon-bar {
-    background-color: #333333;
+  /*--
+    Common Css
+  --*/
+  body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
 
-  header .navbar-default .navbar-toggle:hover,
-  header .navbar-default .navbar-toggle:focus {
-    background-color: transparent;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Roboto', sans-serif;
   }
 
-  header .navbar-default .navbar-toggle.collapsed .icon-bar {
-    background-color: #333333;
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
   }
 
-  header .navbar-collapse.collapse {
-    display: none;
+  h3 {
+    font-size: 28px;
+    font-weight: 300;
   }
 
-  header .navbar-collapse.collapse.in {
-    display: block;
+  p {
+    font-size: 15px;
+    line-height: 28px;
   }
 
-  header .navbar-default .navbar-nav {
-    margin: 7.5px -15px;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
 
-  header .navbar-default .navbar-nav>li {
-    float: none;
+  a,
+  a:active,
+  a:focus,
+  a:active {
+    text-decoration: none !important;
   }
 
-  header .navbar-default .navbar-nav>li>a {
+  .section-title {
+    margin-bottom: 70px;
+  }
+
+  .section-title i {
+    padding: 0;
+    margin: auto;
+  }
+
+  .section-title h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0;
+    margin: auto;
+  }
+
+  .section-title p {
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+    color: #666;
+    padding: 0;
+    margin: auto;
+  }
+
+  .section-title-learn {
+    padding: 0;
+    margin: auto;
+  }
+
+  .section-title-learn h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0;
+    margin: auto;
+  }
+
+  .section-title-learn p {
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+    color: #666;
+    padding: 0;
+    margin: auto;
+  }
+
+  /*--
+    Header Start
+  */
+  header {
+    background: #fff;
+    padding: 20px 0;
+  }
+
+  nav.navbar {
+    margin-bottom: 0px;
+    left: 0;
+    border: 0px;
+    text-align: center;
+  }
+
+  nav.navbar-default {
+    background: none;
+    border: 0px;
+  }
+
+  nav.navbar-default .navbar-nav li a {
+    color: #333333;
+    padding: 10px 26px;
+    font-size: 15px;
+  }
+
+  nav.navbar-default .navbar-nav li a:hover {
+    color: #000;
+  }
+
+  /* Shrink and fix navigation on scroll */
+  nav.navbar-shrink {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    left:0;
+    z-index: 999;
     padding-top: 10px;
-    padding-bottom: 10px;
+    background: #fff;
+    margin-bottom: 0px;
+    border: 0px;
+    text-align: center;
+    transition: all 0.3s ease;
   }
 
-  header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  /* 
+  nav.navbar-shrink .navbar-header h3 {
+    margin-top: 8px;
+  }*/
+
+  nav.navbar-shrink .navbar-default .navbar-nav li a {
+    padding: 8px 15px;
+    font-size: 13px;
   }
-}
+
+  /* Hamburger style for smaller screens */
+  @media (max-width: 767px) {
+    header .navbar-default .navbar-toggle .icon-bar {
+      background-color: #333333;
+    }
+
+    header .navbar-default .navbar-toggle:hover,
+    header .navbar-default .navbar-toggle:focus {
+      background-color: transparent;
+    }
+
+    header .navbar-default .navbar-toggle.collapsed .icon-bar {
+      background-color: #333333;
+    }
+
+    header .navbar-collapse.collapse {
+      display: none;
+    }
+
+    header .navbar-collapse.collapse.in {
+      display: block;
+    }
+
+    header .navbar-default .navbar-nav {
+      margin: 7.5px -15px;
+    }
+
+    header .navbar-default .navbar-nav>li {
+      float: none;
+    }
+
+    header .navbar-default .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
 
 /*---------------------------------------------
 					Index Start
