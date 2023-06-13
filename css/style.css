@@ -147,12 +147,16 @@ nav.navbar-default .navbar-nav li a:hover {
 nav.navbar-shrink {
   position: fixed;
   top: 0;
-  left: 0;
+  
   width: 100%;
   z-index: 999;
-  padding: 10px 0;
+    padding-top: 10px;
   background: #fff;
   text-align: left;
+    margin-bottom: 0px;
+      border: 0px;
+      text-align: center;
+      transition: all 0.3s ease;
 }
 
 nav.navbar-shrink .navbar-header h3 {
