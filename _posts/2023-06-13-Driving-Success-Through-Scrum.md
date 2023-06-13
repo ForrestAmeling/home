@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Support Team to Team Management: My Journey of Growth and Leadership"
+title: "Empowering Teams, Delivering Results: A Journey in Agile Leadership"
 date: 2023-06-13 12:00
 author: Forrest Ameling
 lead: "Scrum has breathed life into my work, infusing it with a sense of purpose and camaraderie, as my team and I navigate the unpredictable currents of projects, embracing agility and transforming challenges into triumphs."
