@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Forrest Ameling
-email: forrest.ameling@gmail.com
+email: fameling@protonmail.com
 description: "I offer high impact web development services, from web design to custom web applications."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ForrestAmeling.github.io/home/" # the base hostname & protocol for your site, e.g. http://example.com
