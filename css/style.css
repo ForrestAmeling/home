@@ -160,7 +160,8 @@ nav.navbar-shrink {
   position: fixed;
   top: 0;
   width: 100%; 
- z-index: 999;
+  left:0;
+  z-index: 999;
   padding-top: 10px;
   background: #fff;
   margin-bottom: 0px;
