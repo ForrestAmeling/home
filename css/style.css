@@ -131,6 +131,7 @@ header {
 
 nav.navbar {
   margin-bottom: 0px;
+  left: 0;
   border: 0px;
   text-align: center;
   transition: all 0.3s ease;
