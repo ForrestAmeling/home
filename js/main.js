@@ -4,10 +4,6 @@ $(document).ready(function () {
 	$("#portfolio-contant-active").mixItUp();
 
 
-
-
-
-
 	// Counter
 
 	$('.counter').counterUp({
