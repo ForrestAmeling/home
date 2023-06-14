@@ -129,94 +129,73 @@
     padding: 20px 0;
   }
 
-  nav.navbar {
-    margin-bottom: 0px;
-    left: 0;
-    border: 0px;
-    text-align: center;
+@media(min-width:768px) {
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
   }
 
-  nav.navbar-default {
-    background: none;
-    border: 0px;
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
   }
 
-  nav.navbar-default .navbar-nav li a {
-    color: #333333;
-    padding: 10px 26px;
-    font-size: 15px;
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
   }
 
-  nav.navbar-default .navbar-nav li a:hover {
-    color: #000;
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
   }
+}
 
-  /* Shrink and fix navigation on scroll */
-  nav.navbar-shrink {
-    position: fixed;
-    top: 0;
-    width: 100%; 
-    left:0;
-    z-index: 999;
-    padding-top: 10px;
-    background: #fff;
-    margin-bottom: 0px;
-    border: 0px;
-    text-align: center;
-    transition: all 0.3s ease;
-  }
+.navbar {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
 
-  /* 
-  nav.navbar-shrink .navbar-header h3 {
-    margin-top: 8px;
-  }*/
+.navbar a:focus {
+  outline: 0;
+}
 
-  nav.navbar-shrink .navbar-default .navbar-nav li a {
-    padding: 8px 15px;
-    font-size: 13px;
-  }
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
 
-  /* Hamburger style for smaller screens */
-  @media (max-width: 767px) {
-    header .navbar-default .navbar-toggle .icon-bar {
-      background-color: #333333;
-    }
+.navbar .navbar-nav li a:focus {
+  outline: 0;
+}
 
-    header .navbar-default .navbar-toggle:hover,
-    header .navbar-default .navbar-toggle:focus {
-      background-color: transparent;
-    }
+.navbar-default,
+.navbar-inverse {
+  border: 0;
+}
 
-    header .navbar-default .navbar-toggle.collapsed .icon-bar {
-      background-color: #333333;
-    }
+.scroll-top {
+  z-index: 1049;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
+}
 
-    header .navbar-collapse.collapse {
-      display: none;
-    }
+.scroll-top .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 28px;
+}
 
-    header .navbar-collapse.collapse.in {
-      display: block;
-    }
-
-    header .navbar-default .navbar-nav {
-      margin: 7.5px -15px;
-    }
-
-    header .navbar-default .navbar-nav>li {
-      float: none;
-    }
-
-    header .navbar-default .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-
-    header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-  }
+.scroll-top .btn:focus {
+  outline: 0;
+}
 
 /*---------------------------------------------
 					Index Start
