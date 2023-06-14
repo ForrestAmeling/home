@@ -80,14 +80,26 @@
     </div>
 
 <div class="row">
-  <H1>Python</H1>
+  <h1>Python</h1>
   <!-- Project 7 -->
   <div class="col-sm-12">
     <h2>Python Bot</h2>
-    <iframe height='265' scrolling='no' title='Python Code'
-      src='https://github.com/ForrestAmeling/BesbuyGpuBot/blob/main/bestbuy.py'
-      frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
-    </iframe><br><br><br>
+    <pre><code>
+if findAllCards:
+    print(f'Button Found!: {findAllCards.get_text()}')
+
+    # Clicking Add to Cart.
+    driverWait(driver, 'css', '.add-to-cart-button')
+    time.sleep(1)
+
+    # Going To Cart.
+    print("Going to cart")
+    driver.get('https://www.bestbuy.com/cart')
+    print("Went to cart")
+    time.sleep(4)
+    </code></pre>
+    <p>View the complete code on <a
+        href="https://github.com/ForrestAmeling/BesbuyGpuBot/blob/main/bestbuy.py">GitHub</a>.</p><br><br><br><br><br>
   </div>
 </div>
 
