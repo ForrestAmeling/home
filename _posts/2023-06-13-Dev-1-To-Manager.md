@@ -4,7 +4,7 @@ title: "From Support Team to Team Management: My Journey of Growth and Leadershi
 date: 2023-06-13 12:00
 author: Forrest Ameling
 lead: "I've learned that technical proficiency alone is not the sole indicator of success; rather, it is the ability to inspire and lead a team towards a common goal that truly defines exceptional leadership."
-url: https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html
+url: https://forrestameling.github.io/home/Dev-1-To-Manager.html
 ---
 
 

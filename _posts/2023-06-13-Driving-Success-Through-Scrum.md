@@ -4,7 +4,7 @@ title: "Empowering Teams, Delivering Results: A Journey in Agile Leadership"
 date: 2023-06-13 12:00
 author: Forrest Ameling
 lead: "Scrum has breathed life into my work, infusing it with a sense of purpose and camaraderie, as my team and I navigate the unpredictable currents of projects, embracing agility and transforming challenges into triumphs."
-url: https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html
+url: https://forrestameling.github.io/home/Driving-Success-Through-Scrum.html
 ---
 
 In today's fast-paced and dynamic business environment, effective team management and efficient project delivery are critical for organizations to stay competitive. Throughout my career as an Engineering Manager, I have had the opportunity to build and lead high-performing teams, utilizing an inclusive and collaborative approach. Leveraging my technical background and constantly iterating on process improvements, I have witnessed firsthand the benefits of implementing Scrum Agile methodologies. In this blog post, I will share my experiences and highlight the advantages of managing multiple teams while embracing Scrum Agile practices.
