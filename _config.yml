@@ -25,3 +25,13 @@ github_username:  ForrestAmeling
 markdown: kramdown
 
 permalink: none
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Forrest Ameling"
+

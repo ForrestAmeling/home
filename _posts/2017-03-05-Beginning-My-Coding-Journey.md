@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "Beginning My Coding Journey"
 date: 2017-03-05 12:00
-author: Forrest Ameling
 lead: "Coding is creating, and creating is what I live for."
-url: https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html
+url: "https://forrestameling.github.io/home/Beginning-My-Coding-Journey.html"
 category: home
 ---
 
